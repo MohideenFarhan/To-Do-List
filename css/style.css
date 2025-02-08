@@ -1,5 +1,12 @@
+:root {
+   --bg-color: rgb(4, 29, 29);
+   --text-color: white;
+   --border-color: rgb(6, 145, 145);
+   --container-bg: #fff;
+}
+
 body {
-   background-color: rgb(4, 29, 29);
+   background-color: var(--bg-color);
    font-family: 'Poppins', sans-serif;
 }
 
@@ -7,7 +14,7 @@ body {
    width: 22.5rem;
    padding: 2.06rem;
    text-align: center;  
-   background-color: #fff;
+   background-color: var(--container-bg);
    margin-left: 33%;
    margin-top: 0.31rem;
 }
@@ -15,7 +22,7 @@ body {
 input {
    width: 16.88rem;
    padding: 0.5rem;
-   border: 0.13rem solid rgb(6, 145, 145);
+   border: 0.13rem solid var(--border-color);
    outline: none;
    font-size: 1.19rem;
 }
@@ -23,8 +30,8 @@ input {
 button {
    width: 3.75rem;
    height: 2.56rem;
-   background-color: rgb(4, 29, 29);
-   color: white;
+   background-color: var(--bg-color);
+   color: var(--text-color);
    border: none;
    cursor: pointer;
    outline: none;
@@ -34,8 +41,8 @@ button {
 
 .tasks ul {
    position: relative;
-   background-color: rgb(4, 29, 29);
-   color: white;
+   background-color: var(--bg-color);
+   color: var(--text-color);
    font-size: 1.19rem;
    padding: 0.44rem;
    text-align: left;
@@ -47,6 +54,6 @@ button {
    position: absolute;
    right: 0.63rem;
    cursor: pointer;
-   color: white; 
+   color: var(--text-color); 
    font-size: 1.13rem;
 }
