@@ -4,49 +4,49 @@ body {
 }
 
 .container {
-   width: 360px;
-   padding: 33px;
-   text-align: center;
+   width: 22.5rem;
+   padding: 2.06rem;
+   text-align: center;  
    background-color: #fff;
    margin-left: 33%;
-   margin-top: 5px;
+   margin-top: 0.31rem;
 }
 
 input {
-   width: 270px;
-   padding: 8px;
-   border: 2px solid rgb(6, 145, 145);
+   width: 16.88rem;
+   padding: 0.5rem;
+   border: 0.13rem solid rgb(6, 145, 145);
    outline: none;
-   font-size: 19px;
+   font-size: 1.19rem;
 }
 
 button {
-   width: 60px;
-   height: 41px;
+   width: 3.75rem;
+   height: 2.56rem;
    background-color: rgb(4, 29, 29);
    color: white;
    border: none;
    cursor: pointer;
    outline: none;
-   border-radius: 2px;
-   font-size: 19px;
+   border-radius: 0.13rem;
+   font-size: 1.19rem;
 }
 
 .tasks ul {
    position: relative;
    background-color: rgb(4, 29, 29);
    color: white;
-   font-size: 19px;
-   padding: 7px;
+   font-size: 1.19rem;
+   padding: 0.44rem;
    text-align: left;
    list-style-type: none; 
-   margin-top: 5px;
+   margin-top: 0.31rem;
 }
 
 .tasks ul i {
    position: absolute;
-   right: 10px;
+   right: 0.63rem;
    cursor: pointer;
    color: white; 
-   font-size: 18px;
+   font-size: 1.13rem;
 }
